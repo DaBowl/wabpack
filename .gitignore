@@ -7,7 +7,8 @@ docs/_book
 
 # TODO: where does this rule come from?
 test/
-node_modules/
 *.txt
 *.json
+node_modules
+npm-debug.log
 package-lock.json
