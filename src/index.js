@@ -5,7 +5,7 @@ function component(){
     var element = document.createElement("div");
     var btn = document.createElement('button')
   // Lodash, now imported by this scrip
-    element.innerHTML = _.join(["真特么难学",'webpack'],'');
+    element.innerHTML = _.join(["真特么难学",'webpack',"我HTML文件咋没了，生成的bundel也都没了"],'');
 
     btn.innerHTML = "点我完事看看console";
     btn.onclick = printMe;
